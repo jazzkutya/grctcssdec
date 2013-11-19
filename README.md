@@ -14,6 +14,6 @@ I've loosened up the settings already to eat less cpu (most important is the tra
 I need to refresh my memory (actually re-study :)) about the windowing stuff.
 
 The pll block needs about this much sample rate for signals in the range 60-270Hz because
-it has a limited bandwidth (max pi/50 in radian/samples).
+it has a limited bandwidth (max pi/50 in radians/samples).
 
-The keep 1 in N block also help reduce cpu load, no need to do moving average at full sample rate.
+The keep 1 in N block also helps reduce cpu load, no need to do moving average at full sample rate.
